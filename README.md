@@ -1,5 +1,5 @@
 # Retail-Empty-shelf-detection
-  Arunachalam (jsarunachalam@gmail.com)
+  Arunachalam (arunachalam@theta90tech.com)
 
 The system is able to monitor and detect the empty space on shelf within the camera vision. Each empty space detected will and a green bounding box will be drawn on it. 
 
