@@ -1,4 +1,5 @@
 # Retail-Empty-shelf-detection
+  Arunachalam (jsarunachalam@gmail.com)
 
 The system is able to monitor and detect the empty space on shelf within the camera vision. Each empty space detected will and a green bounding box will be drawn on it. 
 
@@ -91,5 +92,5 @@ $ python3 onnx_export.py --model-dir=models/Retail_model
 ## Run inference
 
 ```
-$ detectnet --model=models/fruit/ssd-mobilenet.onnx --labels=models/fruit/labels.txt  --input-blob=input_0 --output-cvg=scores --output-bbox=boxes /dev/video0 (source)
+$ detectnet --model=models/Retail_model/ssd-mobilenet.onnx --labels=models/Retail_model/labels.txt  --input-blob=input_0 --output-cvg=scores --output-bbox=boxes /dev/video0 (input source)
 ```
